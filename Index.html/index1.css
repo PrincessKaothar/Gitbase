@@ -1,0 +1,80 @@
+body{
+background-color: magenta;
+text-align: center;
+padding: 20px;
+width: 250px;
+margin: 20px;
+border-bottom: 2px solid;
+font-size: 18px;
+font-weight: 200px;
+outline: none;
+height: 35px;
+font: 15px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.firstdiv{
+    background-color: cyan;
+    color: tomato;
+    border-color: blue;
+    border-width: thin;   
+}
+.seconddiv{
+    background-color: mediumorchid;
+    color: cyan;
+    border-color: blue;
+    border-width: thin;
+}
+.thirddiv{
+    background-color: cyan;
+    color: cornflowerblue;
+    border-color: blue;
+    border-width: thin;
+}
+.fourthdiv{
+    background-color: magenta;
+    color: cyan;
+    border-color: blue;
+    border-width: thin;
+}
+.fifthdiv{
+    background-color: tomato;
+    color: cyan;
+    border-color: blue;
+    border-width: thick;
+}
+button{
+    border: none;
+    width: 190px;
+    color: red;
+    line-height: 25px;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    height: 38px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+button :hover{
+    background-color: black;
+    color: white;
+}
+footer{
+    background-color: cyan;
+    padding: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+figcaption{
+    color: cyan;
+    padding-left: 10px;
+}
+figure{
+    image-orientation: 0px;
+}
+@media{
+    max-width: 500px;
+}
+@media{
+    min-width: 800px;
+}
